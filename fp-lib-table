@@ -1,5 +1,6 @@
 (fp_lib_table
+  (version 7)
   (lib (name "Connectors_4UCON")(type "KiCad")(uri "${KIPRJMOD}/kicad_microbit_connector/Connectors_4UCON.pretty")(options "")(descr ""))
-  (lib (name "asyd-parachute")(type "KiCad")(uri "${KIPRJMOD}/asyd-parachute.pretty")(options "")(descr ""))
+  (lib (name "asyd-parachute")(type "KiCad")(uri "${KIPRJMOD}/ares-parachute-board.pretty")(options "")(descr ""))
   (lib (name "microbit_smd")(type "KiCad")(uri "${KIPRJMOD}/microbit_smd.pretty")(options "")(descr ""))
 )
