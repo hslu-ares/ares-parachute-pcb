@@ -3,4 +3,5 @@
   (lib (name "Connectors_4UCON")(type "KiCad")(uri "${KIPRJMOD}/kicad_microbit_connector/Connectors_4UCON.pretty")(options "")(descr ""))
   (lib (name "asyd-parachute")(type "KiCad")(uri "${KIPRJMOD}/ares-parachute-board.pretty")(options "")(descr ""))
   (lib (name "microbit_smd")(type "KiCad")(uri "${KIPRJMOD}/microbit_smd.pretty")(options "")(descr ""))
+  (lib (name "easyeda_exported")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda_exported.pretty")(options "")(descr ""))
 )
