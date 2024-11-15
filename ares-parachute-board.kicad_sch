@@ -4706,6 +4706,94 @@
 				)
 			)
 		)
+		(symbol "easyeda_exported:RH-5000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RH-5000"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda_exported:TEST-TH_BD2.54-P1.4_RED"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5277086"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RH-5000_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda_exported:SR05-ES"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6338,6 +6426,10 @@
 		(uuid "623b7eb4-ea47-4cb4-a2a2-45355d205f8f")
 	)
 	(no_connect
+		(at 40.64 59.69)
+		(uuid "665614ff-bb97-43d4-91fa-82d448196200")
+	)
+	(no_connect
 		(at 146.05 119.38)
 		(uuid "6bf716bd-0b16-4e76-8640-2f73f728e1a8")
 	)
@@ -6426,6 +6518,16 @@
 			(type default)
 		)
 		(uuid "03e99d1a-30b0-4700-a4d3-b7cd281b8d7a")
+	)
+	(wire
+		(pts
+			(xy 97.79 170.18) (xy 106.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07553902-7ed2-4900-9609-d376f03f022a")
 	)
 	(wire
 		(pts
@@ -6606,6 +6708,16 @@
 			(type default)
 		)
 		(uuid "200487cd-7696-4cbf-a089-c5b7c783ebc0")
+	)
+	(wire
+		(pts
+			(xy 97.79 154.94) (xy 106.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216ceb2a-7e42-4ef2-ae6f-5d413d732edd")
 	)
 	(wire
 		(pts
@@ -7006,6 +7118,16 @@
 			(type default)
 		)
 		(uuid "479ba4f2-e79a-4ee6-a0a1-c8f4e6552780")
+	)
+	(wire
+		(pts
+			(xy 97.79 162.56) (xy 106.68 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48187605-93a1-480f-8e29-8be3da98797c")
 	)
 	(wire
 		(pts
@@ -7729,6 +7851,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 132.08) (xy 106.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b6708e-d155-475d-89e0-5fcfb74186d0")
+	)
+	(wire
+		(pts
 			(xy 17.78 105.41) (xy 17.78 109.22)
 		)
 		(stroke
@@ -7909,6 +8041,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 177.8) (xy 106.68 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0eafefa-1f56-4aa7-b348-203ad47eee83")
+	)
+	(wire
+		(pts
 			(xy 26.67 107.95) (xy 36.83 107.95)
 		)
 		(stroke
@@ -8079,6 +8221,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 139.7) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75eaf93-0f5a-4590-a258-0d14efd9f53c")
+	)
+	(wire
+		(pts
 			(xy 104.14 40.64) (xy 104.14 43.18)
 		)
 		(stroke
@@ -8246,6 +8398,16 @@
 			(type default)
 		)
 		(uuid "c371551b-6d5a-4f9b-a44d-9b9bf7bdfbca")
+	)
+	(wire
+		(pts
+			(xy 97.79 147.32) (xy 106.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b468b6-7c81-48d8-bcf4-4c91619fdfe7")
 	)
 	(wire
 		(pts
@@ -8877,6 +9039,18 @@
 		)
 		(uuid "ff214db5-16df-4a4e-9a9a-b483ae59e821")
 	)
+	(rectangle
+		(start 86.36 124.46)
+		(end 129.54 196.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1db4df43-2684-4491-8c0b-461fe85032cf)
+	)
 	(text "TVS"
 		(exclude_from_sim no)
 		(at 238.76 49.784 0)
@@ -8970,7 +9144,7 @@
 	)
 	(text "PA2"
 		(exclude_from_sim no)
-		(at 135.636 163.576 0)
+		(at 169.926 166.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9000,7 +9174,7 @@
 	)
 	(text "5mA each:\nRed, Yellow Vf 2.0V -> 260 Ohm ~ 270 Ohm\nGreen Vf 2.8V -> 100 Ohm"
 		(exclude_from_sim no)
-		(at 123.19 192.278 0)
+		(at 157.48 194.818 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9020,7 +9194,7 @@
 	)
 	(text "PA0"
 		(exclude_from_sim no)
-		(at 109.474 163.576 0)
+		(at 143.764 166.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9030,7 +9204,7 @@
 	)
 	(text "PA1"
 		(exclude_from_sim no)
-		(at 122.682 163.576 0)
+		(at 156.972 166.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9067,6 +9241,16 @@
 			)
 		)
 		(uuid "f19e22f1-13e0-438a-a038-0a288e446e5b")
+	)
+	(text "Prototype Test Points"
+		(exclude_from_sim no)
+		(at 97.536 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1cf35be-ac92-4744-ab2e-60eb0a4dbfc0")
 	)
 	(text "Daughterboard / Proto-HAT Connector"
 		(exclude_from_sim no)
@@ -9255,7 +9439,7 @@
 		(uuid "33d90ec4-c296-42e6-9523-9c934c293142")
 	)
 	(label "YLW"
-		(at 121.92 167.64 0)
+		(at 156.21 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9452,6 +9636,17 @@
 		)
 		(uuid "748b1ce4-11d9-4bdd-a451-49ec95c7c223")
 	)
+	(label "I2C1_SCL"
+		(at 97.79 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "771127c7-79fe-4ec8-ac2f-613662701a2b")
+	)
 	(label "USB_D+"
 		(at 217.17 34.29 0)
 		(fields_autoplaced yes)
@@ -9518,6 +9713,28 @@
 		)
 		(uuid "819aedd7-8ba3-4099-940d-13d16d6943c9")
 	)
+	(label "SPI1_MOSI"
+		(at 97.79 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "826f037f-4826-4be4-aab1-66ad1693e01a")
+	)
+	(label "SPI1_SCK"
+		(at 97.79 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83474f95-22dd-4824-bde0-a56d6e31a2f6")
+	)
 	(label "PB12"
 		(at 135.89 139.7 0)
 		(fields_autoplaced yes)
@@ -9574,7 +9791,7 @@
 		(uuid "8f064247-74b1-46ec-a87e-ab9fd4f26870")
 	)
 	(label "RED"
-		(at 109.22 167.64 0)
+		(at 143.51 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9661,6 +9878,17 @@
 		)
 		(uuid "a90e74a4-5ba4-43ff-a7a7-6a2c2904a453")
 	)
+	(label "SPI1_MISO"
+		(at 97.79 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf69160-f1bc-4840-8183-ade58be87e57")
+	)
 	(label "SPI1_SCK"
 		(at 185.42 93.98 0)
 		(fields_autoplaced yes)
@@ -9738,6 +9966,17 @@
 		)
 		(uuid "bdd05708-bb7d-41bf-a35f-a8c7277b097c")
 	)
+	(label "I2C2_SCL"
+		(at 97.79 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2bf3fb6-49db-4613-bc94-e1bb2cbe7834")
+	)
 	(label "I2C1_SCL"
 		(at 21.59 100.33 0)
 		(fields_autoplaced yes)
@@ -9772,7 +10011,7 @@
 		(uuid "c8efd3d6-44ca-4c76-a76d-c4cdbb0a1402")
 	)
 	(label "GRN"
-		(at 134.62 167.64 0)
+		(at 168.91 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9814,6 +10053,28 @@
 			(justify left bottom)
 		)
 		(uuid "ed0105bf-9697-450c-8664-a327ec61e1e6")
+	)
+	(label "I2C2_SDA"
+		(at 97.79 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f074cc77-fbb2-47f5-841e-600bf95cdadd")
+	)
+	(label "I2C1_SDA"
+		(at 97.79 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f67fd2c4-b8fb-4ed6-b774-1473371e03fb")
 	)
 	(label "SWDIO"
 		(at 185.42 114.3 0)
@@ -10433,7 +10694,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 171.45 180)
+		(at 168.91 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10441,7 +10702,7 @@
 		(dnp no)
 		(uuid "0bf5cb25-5690-40e5-b101-eaffe4505d74")
 		(property "Reference" "R14"
-			(at 139.7 171.45 90)
+			(at 173.99 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10710,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 137.16 171.45 90)
+			(at 171.45 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +10718,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 136.398 171.45 90)
+			(at 170.688 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,7 +10727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 171.45 0)
+			(at 168.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10475,7 +10736,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 171.45 0)
+			(at 168.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,6 +10925,82 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda_exported:RH-5000")
+		(at 111.76 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10c77ea0-874f-420a-863e-ed87b90304dd")
+		(property "Reference" "T2"
+			(at 118.11 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 118.11 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda_exported:TEST-TH_BD2.54-P1.4_RED"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "679354c0-213a-4bea-adb3-3abec666f866")
+		)
+		(instances
+			(project "ares-parachute-board"
+				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 74.93 95.25 0)
 		(unit 1)
@@ -10724,6 +11061,82 @@
 			(project "ares-parachute-board"
 				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda_exported:RH-5000")
+		(at 111.76 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14d6ad16-b3d8-447e-bd29-5934d6f79f72")
+		(property "Reference" "T7"
+			(at 118.11 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 118.11 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda_exported:TEST-TH_BD2.54-P1.4_RED"
+			(at 111.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba0edb4d-ea8f-40bb-96b5-cc05bc79e1c1")
+		)
+		(instances
+			(project "ares-parachute-board"
+				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
+					(reference "T7")
 					(unit 1)
 				)
 			)
@@ -10932,6 +11345,82 @@
 			(project "ares-parachute-board"
 				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda_exported:RH-5000")
+		(at 111.76 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173a1bad-01ef-484f-b247-ecf7632585d6")
+		(property "Reference" "T4"
+			(at 118.11 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 118.11 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda_exported:TEST-TH_BD2.54-P1.4_RED"
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f70f18c1-cc9e-4993-b556-1bced6daa685")
+		)
+		(instances
+			(project "ares-parachute-board"
+				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
+					(reference "T4")
 					(unit 1)
 				)
 			)
@@ -12136,6 +12625,82 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda_exported:RH-5000")
+		(at 111.76 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cf39328-80bd-4c70-87ca-ce035c6bf4a0")
+		(property "Reference" "T6"
+			(at 118.11 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 118.11 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda_exported:TEST-TH_BD2.54-P1.4_RED"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7777292-146f-406e-a82b-c4e2a9d998d9")
+		)
+		(instances
+			(project "ares-parachute-board"
+				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
+					(reference "T6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 31.75 93.98 0)
 		(unit 1)
@@ -12269,7 +12834,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_exported:FC-2012HRK-620D")
-		(at 109.22 180.34 90)
+		(at 143.51 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12277,7 +12842,7 @@
 		(dnp no)
 		(uuid "62285d54-f3d8-412e-a437-38b30d4528f4")
 		(property "Reference" "LED2"
-			(at 112.268 180.34 90)
+			(at 146.558 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12851,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 112.268 182.88 90)
+			(at 146.558 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +12860,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_exported:LED0805-R-RD"
-			(at 116.84 180.34 0)
+			(at 151.13 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12869,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html"
-			(at 119.38 180.34 0)
+			(at 153.67 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12878,7 @@
 			)
 		)
 		(property "Description" "LED 0805 Red"
-			(at 109.22 180.34 0)
+			(at 143.51 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +12887,7 @@
 			)
 		)
 		(property "LCSC Part" "C84256"
-			(at 121.92 180.34 0)
+			(at 156.21 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +13947,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_exported:17-21SUYC_TR8")
-		(at 121.92 180.34 90)
+		(at 156.21 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13390,7 +13955,7 @@
 		(dnp no)
 		(uuid "8a40d832-d054-4c1a-8b9e-06ea2790d480")
 		(property "Reference" "LED3"
-			(at 124.714 180.34 90)
+			(at 159.004 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13964,7 @@
 			)
 		)
 		(property "Value" "YLW"
-			(at 124.714 182.88 90)
+			(at 159.004 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13408,7 +13973,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_exported:LED0805-R-RD"
-			(at 129.54 180.34 0)
+			(at 163.83 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13417,7 +13982,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-light-0805-Highlighted_C2296.html"
-			(at 132.08 180.34 0)
+			(at 166.37 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13991,7 @@
 			)
 		)
 		(property "Description" "LED 0805 Yellow"
-			(at 121.92 180.34 0)
+			(at 156.21 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +14000,7 @@
 			)
 		)
 		(property "LCSC Part" "C2296"
-			(at 134.62 180.34 0)
+			(at 168.91 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,7 +14090,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 185.42 0)
+		(at 168.91 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13533,7 +14098,7 @@
 		(dnp no)
 		(uuid "9219cc93-f276-4bf4-8a47-881ffce12d85")
 		(property "Reference" "#PWR049"
-			(at 134.62 191.77 0)
+			(at 168.91 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13542,7 +14107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.652 185.928 0)
+			(at 170.942 188.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13550,7 +14115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 185.42 0)
+			(at 168.91 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +14124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 185.42 0)
+			(at 168.91 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13568,7 +14133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 185.42 0)
+			(at 168.91 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13848,6 +14413,158 @@
 			(project "ares-parachute-board"
 				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda_exported:RH-5000")
+		(at 111.76 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e2e9b21-7345-4eaa-8fc8-09e5b9f0704a")
+		(property "Reference" "T3"
+			(at 118.11 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 118.11 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda_exported:TEST-TH_BD2.54-P1.4_RED"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 111.76 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0ccd971-fd33-44d2-be5d-291c93810fd7")
+		)
+		(instances
+			(project "ares-parachute-board"
+				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
+					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda_exported:RH-5000")
+		(at 111.76 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e460e5f-962d-4173-9476-c116576f9835")
+		(property "Reference" "T5"
+			(at 118.11 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 118.11 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda_exported:TEST-TH_BD2.54-P1.4_RED"
+			(at 111.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 111.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e36a14d-2b52-4877-8795-cc1dc953fcfd")
+		)
+		(instances
+			(project "ares-parachute-board"
+				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
+					(reference "T5")
 					(unit 1)
 				)
 			)
@@ -14409,7 +15126,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_exported:0805G(Green)")
-		(at 134.62 180.34 90)
+		(at 168.91 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14417,7 +15134,7 @@
 		(dnp no)
 		(uuid "b01ec34f-26cf-4ec2-b2fc-7c5c26c1eae8")
 		(property "Reference" "LED4"
-			(at 137.414 180.594 90)
+			(at 171.704 183.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14426,7 +15143,7 @@
 			)
 		)
 		(property "Value" "GRN"
-			(at 137.414 183.134 90)
+			(at 171.704 185.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14435,7 +15152,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_exported:LED0805-R-RD"
-			(at 142.24 180.34 0)
+			(at 176.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14444,7 +15161,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Green-0805-Highlighted_C2297.html"
-			(at 144.78 180.34 0)
+			(at 179.07 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14453,7 +15170,7 @@
 			)
 		)
 		(property "Description" "LED 0805 Green"
-			(at 134.62 180.34 0)
+			(at 168.91 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14462,7 +15179,7 @@
 			)
 		)
 		(property "LCSC Part" "C2297"
-			(at 147.32 180.34 0)
+			(at 181.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15651,7 +16368,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 171.45 180)
+		(at 143.51 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15659,7 +16376,7 @@
 		(dnp no)
 		(uuid "cc2da32a-9959-4cec-afae-ae32d42bf20f")
 		(property "Reference" "R12"
-			(at 114.3 171.45 90)
+			(at 148.59 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,7 +16384,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 111.76 171.45 90)
+			(at 146.05 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15675,7 +16392,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 110.998 171.45 90)
+			(at 145.288 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15684,7 +16401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 171.45 0)
+			(at 143.51 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15693,7 +16410,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 171.45 0)
+			(at 143.51 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,7 +16914,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 171.45 180)
+		(at 156.21 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16205,7 +16922,7 @@
 		(dnp no)
 		(uuid "d8cf0315-602e-42dd-a6bd-adcfabf91e62")
 		(property "Reference" "R13"
-			(at 127 171.45 90)
+			(at 161.29 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16213,7 +16930,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 124.46 171.45 90)
+			(at 158.75 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16221,7 +16938,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 123.698 171.45 90)
+			(at 157.988 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 171.45 0)
+			(at 156.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16239,7 +16956,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 171.45 0)
+			(at 156.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16804,7 +17521,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 185.42 0)
+		(at 143.51 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16812,7 +17529,7 @@
 		(dnp no)
 		(uuid "ec977962-323c-46d8-a6df-f905ecd8f32e")
 		(property "Reference" "#PWR047"
-			(at 109.22 191.77 0)
+			(at 143.51 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16821,7 +17538,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.252 185.928 0)
+			(at 145.542 188.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16829,7 +17546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 185.42 0)
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16838,7 +17555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 185.42 0)
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16847,7 +17564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 185.42 0)
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16950,6 +17667,82 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda_exported:RH-5000")
+		(at 111.76 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed443eff-6b33-483d-979d-961391655982")
+		(property "Reference" "T1"
+			(at 118.11 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 118.11 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda_exported:TEST-TH_BD2.54-P1.4_RED"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 111.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1274fd9b-4378-4e3d-9c36-a4e1564539c8")
+		)
+		(instances
+			(project ""
+				(path "/690fc002-96ff-4ebc-bc23-96072f93f7f5"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 242.57 19.05 0)
 		(unit 1)
@@ -17017,7 +17810,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 185.42 0)
+		(at 156.21 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17025,7 +17818,7 @@
 		(dnp no)
 		(uuid "f0c303fb-fef7-4b91-a8b4-e65d852e95c0")
 		(property "Reference" "#PWR048"
-			(at 121.92 191.77 0)
+			(at 156.21 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17034,7 +17827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.952 185.928 0)
+			(at 158.242 188.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17042,7 +17835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 185.42 0)
+			(at 156.21 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17051,7 +17844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 185.42 0)
+			(at 156.21 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17060,7 +17853,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 185.42 0)
+			(at 156.21 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
