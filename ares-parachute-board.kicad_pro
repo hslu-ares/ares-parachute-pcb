@@ -517,8 +517,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "USB Data",
         "pattern": "*USB_D*"
+      },
+      {
+        "netclass": "USB Data",
+        "pattern": "/d*"
       }
     ]
   },
