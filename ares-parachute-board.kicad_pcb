@@ -257,7 +257,7 @@
 		(path "/00000000-0000-0000-0000-0000603e6760")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 1.27)
 			(end 1.33 1.27)
@@ -10100,7 +10100,7 @@
 		(path "/00000000-0000-0000-0000-00006093e9f4")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -10472,7 +10472,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C1671"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10777,7 +10777,7 @@
 		(path "/1d436b6a-a162-436f-b360-b92bd5ef794a")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.27 -1.27)
 			(end 0 -1.27)
@@ -11454,6 +11454,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4db7dfc8-d159-4acf-9131-c1bf287deab1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23186"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8426d6d1-3d37-4c99-91dc-81447ea5806b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12173,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C19666"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12387,7 +12399,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12852,7 +12864,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C1671"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13167,7 +13179,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14818,6 +14830,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b72e9d26-138c-4a2d-ad65-6fa7fabb2c68")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5d80260d-45c7-49e3-8373-e9e470663cd9")
 		(sheetname "Root")
@@ -15031,7 +15055,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C38523"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15250,6 +15274,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d62707ef-5419-4bb6-a818-90978371eaaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22966"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d2af7f52-9f3c-4aa7-9051-5671d6817ce7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15844,7 +15880,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16374,7 +16410,7 @@
 		(path "/d6dad607-ce34-4703-8be8-f8cc7e92bd45")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.8 3.4)
 			(end -1.3 3.4)
@@ -17126,7 +17162,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C14663"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17441,7 +17477,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17667,6 +17703,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C21189"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1953c007-0aef-4b4d-b02d-68baed346716")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c0ada4df-7369-4075-945c-dde9a2523d3b")
 		(sheetname "Root")
@@ -17880,7 +17928,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18099,6 +18147,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff049dc5-eaac-4561-9536-3c8c16392d31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23206"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cdb7767e-8204-420e-9abc-1ba7c619f69f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18469,7 +18529,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18863,7 +18923,7 @@
 		(path "/7419eef8-0db8-499e-a436-2c3c535f6321")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 10.1 5.46)
 			(end 4.1 5.46)
@@ -19636,7 +19696,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20147,7 +20207,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C14663"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20908,7 +20968,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C38523"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21412,6 +21472,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "860b475a-4464-4680-bd5e-274d9cce1b5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "95b94931-9941-4ee7-85ec-e5ef0059301b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23585,6 +23657,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "26bc1d88-bac9-4690-9c73-82da707149fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/98bd1064-827c-4bff-ab81-231e25fa5664")
 		(sheetname "Root")
@@ -23791,6 +23875,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76231db5-97a7-40ac-9d68-fbb90f0e3072")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23186"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76a8dbbe-c6a2-414b-b6ce-187e30f484bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24011,7 +24107,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24230,6 +24326,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5b1c137-3c3c-4f54-a280-89df90dc3d34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4c1ba54d-132c-40ec-bf27-84a4fa644ebd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25581,6 +25689,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C22966"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bd5c7b60-4df5-430d-9fb1-0bc66f762684")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d8cf0315-602e-42dd-a6bd-adcfabf91e62")
 		(sheetname "Root")
@@ -26046,6 +26166,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1477ddc-b365-4f22-8417-4b9b20d04ebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0c5caa9b-583a-4670-a761-4f17bfeb9076")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26914,6 +27046,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23140"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7f1ba755-053c-43c0-b12a-27084df40ad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1be92bb6-7655-4574-9d7d-049ac4f32ff2")
 		(sheetname "Root")
@@ -27139,7 +27283,7 @@
 		(path "/00000000-0000-0000-0000-0000603d489d")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2 -13.75)
 			(end -21 -13.75)
@@ -27301,6 +27445,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "695e3d69-2433-4122-9602-cd460b5258bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0a584937-70ad-4108-abd0-94e65492d6bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27791,7 +27947,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1648"
+		(property "LCSC Part" "C19702"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28167,6 +28323,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23140"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3c78e377-fa72-44da-9473-f0c902c03573")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/16d5c215-b795-4a4d-90b1-690f388f4b4c")
 		(sheetname "Root")
@@ -28448,6 +28616,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3413ca84-8c33-4030-9fe5-ef70598ba299")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22966"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0188191c-f312-4df5-a4cf-87ea25e54b7b")
 			(effects
 				(font
 					(size 1.27 1.27)

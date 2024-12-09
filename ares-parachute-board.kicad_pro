@@ -69,7 +69,16 @@
           "width": 0.4
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|207308495|53446993|00000000-0000-0000-0000-00006041e8d0|00000000-0000-0000-0000-00006093d9c5",
+        "courtyards_overlap|208243303|56204750|00000000-0000-0000-0000-00006093d9c5|00000000-0000-0000-0000-00006093daf1",
+        "courtyards_overlap|208496810|55043200|00000000-0000-0000-0000-00006041e8d0|00000000-0000-0000-0000-00006093daf1",
+        "footprint_type_mismatch|189800006|57094992|b7f191d9-d876-4505-8a23-7dae77f91700|00000000-0000-0000-0000-000000000000",
+        "hole_clearance|186900006|58879992|358ee34f-338c-4b45-bf7c-d3e21df0360f|982e5e3e-a791-4ec3-8d54-81e052a653d1",
+        "hole_clearance|187100006|58879992|56d396c1-bca9-498f-bfc7-89da6a6feb80|982e5e3e-a791-4ec3-8d54-81e052a653d1",
+        "hole_clearance|192500006|58879992|41b1db00-5770-4f8b-902a-a18e79efffcf|5ef3adf2-c8da-45c7-b93c-c3a2898117e0",
+        "hole_clearance|192700006|58879992|fc7cef33-f290-4df1-bd59-916409a91051|5ef3adf2-c8da-45c7-b93c-c3a2898117e0"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
