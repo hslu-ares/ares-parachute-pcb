@@ -15,6 +15,10 @@
     - Red, Yellow, 560 Ohm
     - Green 2.2kOhm
 
+# To add
+
+- DIP-Switch to enable/disable Accelerometer I2C connection
+
 # Ordering
 
 All components other than JP1, J5, J6 (all of them available in Werkstatt) and C17 (Supercap) are designed to be manufactured placed from JLCPCB. 
