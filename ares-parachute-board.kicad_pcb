@@ -257,7 +257,7 @@
 		(path "/00000000-0000-0000-0000-0000603e6760")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 1.27)
 			(end 1.33 1.27)
@@ -10100,7 +10100,7 @@
 		(path "/00000000-0000-0000-0000-00006093e9f4")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -10777,7 +10777,7 @@
 		(path "/1d436b6a-a162-436f-b360-b92bd5ef794a")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.27 -1.27)
 			(end 0 -1.27)
@@ -14705,7 +14705,7 @@
 		(uuid "38cbdb4c-7b58-43da-ae3a-607a757e9120")
 		(at 191.970006 79.299992)
 		(property "Reference" "X1"
-			(at 1.43 1.9 360)
+			(at 1.43 1.9 0)
 			(layer "F.SilkS")
 			(uuid "87dac227-20c3-4887-ba42-64e80f61f48b")
 			(effects
@@ -14716,7 +14716,7 @@
 			)
 		)
 		(property "Value" "CSTNE8M00G520000R0"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "11ae814a-b060-43dd-ba86-d47df0290643")
 			(effects
@@ -14727,7 +14727,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_exported:OSC-SMD_3P-L3.2-W1.3-P1.20"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a90d92c6-3299-423a-a0b2-0213f816a3cc")
@@ -14739,7 +14739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7611269a-b8d8-4db8-b4c6-93dc00dec1ce")
@@ -14751,7 +14751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c5671b3b-7d97-406b-958b-8101d16368d5")
@@ -14902,7 +14902,7 @@
 			(uuid "2f6ef34e-537b-4aa1-964e-d4ffb8266681")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e66bf4dd-d5b0-4fdb-ac71-6b2cc7ae0ff6")
 			(effects
@@ -15240,7 +15240,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22966"
+		(property "LCSC" "C23204"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -16220,7 +16220,7 @@
 		(path "/d6dad607-ce34-4703-8be8-f8cc7e92bd45")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.8 3.4)
 			(end -1.3 3.4)
@@ -20022,7 +20022,7 @@
 		(uuid "869f9ad3-f5b2-4781-9f73-c53a7603940e")
 		(at 219.900006 83.999992)
 		(property "Reference" "U8"
-			(at 0 -8.4 360)
+			(at 0 -8.4 0)
 			(layer "F.SilkS")
 			(uuid "9175e30e-e8db-470a-ad78-62aecf1a3fea")
 			(effects
@@ -20033,7 +20033,7 @@
 			)
 		)
 		(property "Value" "DSIC-02-TS-GER"
-			(at 0 8.4 360)
+			(at 0 8.4 0)
 			(layer "F.Fab")
 			(uuid "8a79cd84-2ddb-4a0b-9428-98dc9d1b3761")
 			(effects
@@ -20044,7 +20044,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_exported:SW-SMD_DSIC-02-TS-GER"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e49080d0-642e-4de3-82a9-d86661557cad")
@@ -20056,7 +20056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdef8525-b3b5-4424-8379-b6bb93d26a15")
@@ -20068,7 +20068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5d44d52-6cd7-4d6f-b7b9-310abb8909a0")
@@ -20268,7 +20268,7 @@
 			(uuid "393f8b25-dd10-400d-8ee4-0933e1097e53")
 		)
 		(fp_text user "1"
-			(at -3.3 -4.2 360)
+			(at -3.3 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "4c281f7a-2a1e-4f47-a241-70089426d488")
 			(effects
@@ -20280,7 +20280,7 @@
 			)
 		)
 		(fp_text user "2"
-			(at 2.5 -4.2 360)
+			(at 2.5 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "7b92f376-bd43-47f8-bc4c-ab1b268206b6")
 			(effects
@@ -20292,7 +20292,7 @@
 			)
 		)
 		(fp_text user "ON"
-			(at -2.29 -2.16 360)
+			(at -2.29 -2.16 0)
 			(layer "F.SilkS")
 			(uuid "89b82e45-3d75-4cc8-af55-8ad7b2391a6c")
 			(effects
@@ -20304,7 +20304,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b7bb18c4-853d-4587-8bde-f4a600687948")
 			(effects
@@ -20913,7 +20913,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C4190"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -24853,7 +24853,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22966"
+		(property "LCSC" "C23204"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -26447,7 +26447,7 @@
 		(path "/00000000-0000-0000-0000-0000603d489d")
 		(sheetname "Root")
 		(sheetfile "ares-parachute-board.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2 -13.75)
 			(end -21 -13.75)
@@ -29184,7 +29184,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ff932a00-f732-499d-90eb-95340181b5aa")
 	)
-	(gr_text "ARES Parachute Board PROTO2\n(c) 2025 Hochschule Luzern, Technik & Architektur"
+	(gr_text "ARES Parachute Board v1.0\n(c) 2025 Hochschule Luzern, Technik & Architektur"
 		(at 188.100006 97.999992 90)
 		(layer "B.SilkS")
 		(uuid "d269396c-f3e4-4647-b420-5b01527c0fca")
@@ -29253,6 +29253,18 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CS PA8"
+		(at 209.000006 72.399992 90)
+		(layer "F.SilkS")
+		(uuid "326f4f4e-cbd1-4e04-8846-cc44944901ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -38340,20 +38352,20 @@
 			(pts
 				(xy 196.468162 66.319446) (xy 196.548944 66.373422) (xy 196.619227 66.443705) (xy 196.619229 66.443708)
 				(xy 196.731033 66.555512) (xy 196.815572 66.60432) (xy 196.817715 66.605557) (xy 196.867963 66.634569)
-				(xy 197.020692 66.675492) (xy 197.650506 66.675492) (xy 197.745794 66.694446) (xy 197.826576 66.748422)
-				(xy 197.880552 66.829204) (xy 197.899506 66.924492) (xy 197.899506 67.256094) (xy 197.880552 67.351382)
-				(xy 197.826576 67.432164) (xy 197.745794 67.48614) (xy 197.650506 67.505094) (xy 197.572186 67.492456)
-				(xy 197.450183 67.452029) (xy 197.397714 67.434643) (xy 197.298351 67.424492) (xy 197.298347 67.424492)
-				(xy 196.701663 67.424492) (xy 196.632228 67.431585) (xy 196.602298 67.434643) (xy 196.602296 67.434643)
-				(xy 196.602292 67.434644) (xy 196.441312 67.487987) (xy 196.296964 67.577022) (xy 196.21992 67.654066)
-				(xy 196.139138 67.708042) (xy 196.04385 67.726995) (xy 195.948562 67.70804) (xy 195.86778 67.654064)
-				(xy 195.813804 67.573282) (xy 195.796981 67.510496) (xy 195.792389 67.475618) (xy 195.785693 67.424756)
-				(xy 195.727704 67.284759) (xy 195.727702 67.284756) (xy 195.635461 67.164545) (xy 195.635452 67.164536)
-				(xy 195.515241 67.072295) (xy 195.515239 67.072294) (xy 195.375242 67.014305) (xy 195.375239 67.014304)
-				(xy 195.375238 67.014304) (xy 195.262727 66.999492) (xy 195.262726 66.999492) (xy 195.06847 66.999492)
-				(xy 194.973182 66.980538) (xy 194.8924 66.926562) (xy 194.838424 66.84578) (xy 194.81947 66.750492)
-				(xy 194.838424 66.655204) (xy 194.892397 66.574425) (xy 195.093402 66.373422) (xy 195.174183 66.319446)
-				(xy 195.269471 66.300492) (xy 196.372874 66.300492)
+				(xy 197.020692 66.675492) (xy 197.178806 66.675492) (xy 197.650506 66.675492) (xy 197.745794 66.694446)
+				(xy 197.826576 66.748422) (xy 197.880552 66.829204) (xy 197.899506 66.924492) (xy 197.899506 67.256094)
+				(xy 197.880552 67.351382) (xy 197.826576 67.432164) (xy 197.745794 67.48614) (xy 197.650506 67.505094)
+				(xy 197.572186 67.492456) (xy 197.450183 67.452029) (xy 197.397714 67.434643) (xy 197.298351 67.424492)
+				(xy 197.298347 67.424492) (xy 196.701663 67.424492) (xy 196.632228 67.431585) (xy 196.602298 67.434643)
+				(xy 196.602296 67.434643) (xy 196.602292 67.434644) (xy 196.441312 67.487987) (xy 196.296964 67.577022)
+				(xy 196.21992 67.654066) (xy 196.139138 67.708042) (xy 196.04385 67.726995) (xy 195.948562 67.70804)
+				(xy 195.86778 67.654064) (xy 195.813804 67.573282) (xy 195.796981 67.510496) (xy 195.792389 67.475618)
+				(xy 195.785693 67.424756) (xy 195.727704 67.284759) (xy 195.727702 67.284756) (xy 195.635461 67.164545)
+				(xy 195.635452 67.164536) (xy 195.515241 67.072295) (xy 195.515239 67.072294) (xy 195.375242 67.014305)
+				(xy 195.375239 67.014304) (xy 195.375238 67.014304) (xy 195.262727 66.999492) (xy 195.262726 66.999492)
+				(xy 195.06847 66.999492) (xy 194.973182 66.980538) (xy 194.8924 66.926562) (xy 194.838424 66.84578)
+				(xy 194.81947 66.750492) (xy 194.838424 66.655204) (xy 194.892397 66.574425) (xy 195.093402 66.373422)
+				(xy 195.174183 66.319446) (xy 195.269471 66.300492) (xy 196.372874 66.300492)
 			)
 		)
 		(filled_polygon
