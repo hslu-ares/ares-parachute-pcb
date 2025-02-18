@@ -1,6 +1,9 @@
-# Schema Prototyp-1
+# ARES Parachute Board
 
-![Schema Board](docs/schematic.png)
+![Schema Board](docs/ares-parachute-board.svg)
+
+This repository contains the design files for the parachute board for the ARES module at HSLU. Use as reference material or to order your own variation.
+
 
 # Errata
 
@@ -16,12 +19,7 @@ The outputs needed to order can be generated from [Bouni's JLCPCB Kicad Tools](h
 
 The order requires 'standard assembly' rather than 'Economic assembly' due to the small size of the Accelerometers.
 
-# Untested
+# Not yet tested
 
 - USB
 - SPI
-
-# Ideas
-- USB debugging with sidechannel?
-- Other debug header?
-- Debugging on board?
