@@ -7,6 +7,8 @@ This repository contains the design files for the parachute board for the ARES m
 
 # Errata
 
+## v1.0
+- On the ordered v1.0 of the board, the RST switch was routed incorrectly, thus it was removed. If a reset needs to be triggered (for example when flashing a FW that disables SWD), please short pins 9 and 10 on the debug connector.
 
 # To add
 
